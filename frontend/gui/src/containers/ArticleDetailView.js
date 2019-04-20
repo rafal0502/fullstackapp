@@ -23,6 +23,7 @@ class ArticleDetail extends React.Component {
         return (
             <Card title={this.state.article.title} >
                 <p>{this.state.article.content}</p>
+                <p>{this.state.article.description}</p>
             </Card>
         )
     }
